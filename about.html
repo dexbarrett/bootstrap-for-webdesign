@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+
+        <a href="index.html" class="navbar-brand">Company Name</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> 
+
+        <div class="collapse navbar-collapse">
+
+          <form action="" class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="search...">
+            </div>
+          </form>
+
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li class="active"><a href="about.html">About Us</a></li>
+              <li><a href="#" data-toggle="modal" data-target="#modal-contact-form">Contact Us</a></li>
+            </ul>  
+
+        </div>
+      </div>  
+    </div> <!-- end navbar -->
+
+    <!-- page header -->
+    <div class="container">
+      <section>
+        <ul class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li class="active">About Us</li>
+        </ul>
+        <div class="page-header">
+          <h1>About Us. <small>Who we are</small></h1>
+        </div>
+      </section>
+    </div>
+
+    <!-- Modal Contact Form -->
+    <div class="modal fade" id="modal-contact-form">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+            <h3>Contact Us</h3>
+          </div>
+          <div class="modal-body">
+            <form action="" class="form-horizontal">
+             <div class="form-group">
+               <label for="contact-name" class="col-lg-2 control-label">Name:</label>
+               <div class="col-lg-10">
+                 <input id="contact-name" type="text" class="form-control">
+               </div>
+              </div>
+             <div class="form-group">
+               <label for="contact-email" class="col-lg-2 control-label">Email:</label>
+               <div class="col-lg-10">
+                 <input id="contact-email" type="email" class="form-control">
+               </div>
+             </div>
+             <div class="form-group">
+               <label for="contact-message" class="col-lg-2 control-label">Message:</label>
+               <div class="col-lg-10">
+                 <textarea id="" class="form-control" rows="3"></textarea>
+               </div>
+             </div>
+             <div class="form-group">
+               <div class="col-lg-10 col-lg-offset-8">
+                 <button type="submit" class="btn btn-primary">Send Message</button>
+               </div>
+             </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <a href="" class="btn btn-default" data-dismiss="modal">Cancel</a>
+          </div>  
+        </div>
+      </div>
+    </div><!-- end Modal Contact form -->
+
+    <!-- Page Content -->
+    <div class="container"> 
+    <section>
+        <h4>The Company</h4>
+        <div class="row">
+          <div class="col-md-8">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my</p>
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with</p>
+          </div>
+          <div class="col-md-4">
+            <p class="well well-lg lead text-center">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with</p>
+          </div>
+        </div>
+        <hr>
+    </section>
+
+    <!-- Team -->
+    <section>
+      <h4>The Team</h4>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="thumbnail">
+            <img src="img/custom/demo-team-member.jpg" alt="Demo Team Member">
+            <div class="caption">
+              <h5>John Doe</h5>
+              <p class="text-muted">This is the member description and other useful information like Twitter user and stuff.</p>
+              <p>
+                <small>Follow John On: <a href="">Twitter</a> <span class="text-muted">/</span> <a href="">Facebook</a></small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="thumbnail">
+            <img src="img/custom/demo-team-member.jpg" alt="Demo Team Member">
+            <div class="caption">
+              <h5>John Doe</h5>
+              <p class="text-muted">This is the member description and other useful information like Twitter user and stuff.</p>
+              <p>
+                <small>Follow John On: <a href="">Twitter</a> <span class="text-muted">/</span> <a href="">Facebook</a></small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+    <!-- footer --> 
+      <section>
+        <hr>
+        <p class="lead text-center">Wanna get in touch? Email us at <a href="">office@awesomeproduct.com</a>.</p>
+        <hr>
+        <ul class="list-inline text-center">
+          <li><strong>Follow Us On:</strong></li>
+          <li><a href="">Twitter</a></li>
+          <li><a href="">Facebook</a></li>
+          <li><a href="">LinkedIn</a></li>
+        </ul>
+        <p class="text-center text-muted">&copy; Copyright 2013 Company Name</p>
+      </section>
+    </div>
+    <!-- Javascript -->
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.carousel').carousel({
+          interval: 5000
+        });
+      });   
+    </script>
+  </body>
+</html>
