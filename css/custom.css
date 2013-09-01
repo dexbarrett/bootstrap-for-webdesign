@@ -1,3 +1,38 @@
-body{
-    padding-top: 5em;
+/***********************************************************************************************/
+/* Custom Styles */
+/***********************************************************************************************/
+body {
+  padding-top: 5em;
+}
+.c-cta {
+  margin: 2em 0;
+}
+
+.c-product-cta  {
+    margin-bottom: 2em;
+  }
+
+#testimonials {
+  position: relative;
+}
+#testimonials .carousel-indicators {
+  bottom: -22px;
+}
+#testimonials .carousel-indicators li {
+  background-color: #ccc;
+}
+#testimonials .carousel-indicators li.active {
+  background-color: black;
+}
+.c-product-showcase {
+  margin-bottom: 2em;
+}
+.c-product-showcase .col-md-4 {
+  margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 480px) {
+  .c-product-cta .btn-group {
+    float: none !important;
+  }
 }
